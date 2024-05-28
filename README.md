@@ -69,7 +69,7 @@ Available Makefile Options:
 
   |  Option  | Description  |
   | ------------- | ------------- |
-  | SIM  | Default - icarus. Support Synopsys, Cadence. С Verilator don't work in this env, because X-state checking.  |
+  | SIM  | Default - icarus. Support Synopsys, Cadence. With Verilator don't work in this env, because X-state checking.  |
   | TEST_NAME  | Default  - apb_iso_all_random_reset_test. Available variant - apb_iso_server_test  |
   | PLUSARGS | +APB_ISO_ADDR_WIDTH=32 (APB address width) +APB_ISO_DATA_WIDTH=32 (APB data width) +num_pkts=1000 (iterations in  apb_iso_all_random_reset_test) +has_cov=0 (coverage enable) +loglvl=DEBUG(log level) +pydebug=0 (python debug enable ) |
   | WAVES | По умолчанию  - 1. Support dump timing diagrams in vcd format |
