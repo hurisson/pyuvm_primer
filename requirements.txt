@@ -1,0 +1,4 @@
+pyuvm
+pyvsc
+debugpy
+cocotb-coverage
