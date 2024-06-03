@@ -56,6 +56,14 @@
   | cocotb_coverage (functional coverage)  | https://cocotb-coverage.readthedocs.io/en/latest/ |
   | debugpy (Python debugger in  vscode) |https://github.com/microsoft/debugpy |
 
+  Setup this frameworks  using python venv:
+
+  ```bash
+  [user@pc /../pyuvm_primer]$ python -m venv venv
+  [user@pc /../pyuvm_primer]$ source ./venv/bin/activate
+  [user@pc /../pyuvm_primer]$ pip install -r ./requirements.txt
+  ```
+
 **Documentation of the standarts:**
   | Standart  | Link  |
   | ------------- | ------------- |

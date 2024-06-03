@@ -53,6 +53,14 @@
   | cocotb_coverage (функциональное покрытие, рандомизация)  | https://cocotb-coverage.readthedocs.io/en/latest/ |
   | debugpy (Отладчик Python в среде vscode) |https://github.com/microsoft/debugpy |
 
+  Установите данные фреймворки используя python venv:
+
+  ```bash
+  [user@pc /../pyuvm_primer]$ python -m venv venv
+  [user@pc /../pyuvm_primer]$ source ./venv/bin/activate
+  [user@pc /../pyuvm_primer]$ pip install -r ./requirements.txt
+  ```
+
   **Документация на протоколы:**
 
   | Протокол  | Ссылка  |
