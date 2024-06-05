@@ -1,3 +1,4 @@
+cocotb
 pyuvm
 pyvsc
 debugpy
